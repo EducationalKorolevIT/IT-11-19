@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class For12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        float d = 0;
+        float d = 1;
         float N = sc.nextFloat();
 
-        for (i = 1, i > 0, i = i + 1)
-
-
+        for (float i = 0; i < N; i = i + 0.1f) {
+            d = d * i;
+            System.out.println(d);
+        }
     }
 }
